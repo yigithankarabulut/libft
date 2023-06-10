@@ -18,3 +18,6 @@ int	ft_toupper(int c)
 		return (c - 32);
 	return (c);
 }
+
+// Gelen parametredeki karakter küçük harf ise büyütür ve return eder
+// Küçük harf dışındaki karakterleri olduğu gibi döndürür

@@ -26,3 +26,21 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		}
 	}
 }
+
+// *s dizisinin her indeksini sırasıyla parametredeki fonksiyona parametre olarak gönderilir
+
+/*
+#include <stdio.h>
+
+void ft_iter(unsigned int i, char *str)
+{
+	*str = ft_tolower(*str);
+}
+
+int main()
+{
+	char str[] = "YigitHAN KAraBULut";
+	ft_striteri(str,ft_iter);
+	printf("%s",str);
+}
+*/

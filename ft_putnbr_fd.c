@@ -30,3 +30,15 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(nb % 10, fd);
 	}
 }
+
+// Parametrede verilen sayıyı recursive şeklinde byte byte putchar_fd yle dosya yoluna yazar
+
+/*
+#include <fcntl.h>
+int main()
+{
+	int num = -420;
+	int fd = open("fak.txt", O_CREAT | O_RDWR, 7777);
+	ft_putnbr_fd(num,fd);
+}
+*/

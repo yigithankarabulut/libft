@@ -26,3 +26,14 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
+
+// Parametrede verilen *s dizisinde c karakterini arar ve bulduğu yerden sonrasını döndürür
+
+/*
+#include <stdio.h>
+int main()
+{
+	char *str = "42 Kocaeli";
+	printf("%s",ft_strchr(str,'K'));
+}
+*/

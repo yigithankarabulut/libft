@@ -18,3 +18,6 @@ int	ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
+
+// Gelen parametredeki karakter büyük harf ise küçültür ve return eder
+// Büyük harf dışındaki karakterleri olduğu gibi döndürür

@@ -35,3 +35,6 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		ft_memcpy(dst, src, len);
 	return (ds);
 }
+
+// memcpy le aynı şeyi yapar ancak overloop oluşmaması için sondan kopyalama yapar
+// dst in adresi src den büyükse eğer src nin üstüne yazma durumunu önlemek için sondan kopyalar

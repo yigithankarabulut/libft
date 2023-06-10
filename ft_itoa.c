@@ -55,3 +55,5 @@ char	*ft_itoa(int n)
 		ptr[0] = '0';
 	return (ptr);
 }
+
+// int to ascii gelen int değerin boyutunu hesaplar. "-123" için bir char * 'a 5 byte lık yer açar sondan geriye doğru sayıyı kopyalar

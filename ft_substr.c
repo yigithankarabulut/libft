@@ -39,3 +39,14 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	}
 	return (NULL);
 }
+
+// s dizisinden start değeri kadar ilerledikten len kadarını yeni bi char * a kopyalar
+
+/*
+#include <stdio.h>
+int main()
+{
+	char s[] = "42 Kocaeliii";
+	printf("%s",ft_substr(s,3,7));
+}
+*/

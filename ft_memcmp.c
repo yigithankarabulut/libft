@@ -29,3 +29,6 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+
+// s1 ve s2 dizisini n kadar karşılaştırır birbirinden faklı bir indeks varsa s1 'in indeksinden s2 yi çıkartır. 
+// Parametre void* olduğu için içerde typecasting işlemi yapılıyor

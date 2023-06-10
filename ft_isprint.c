@@ -16,3 +16,5 @@ int	ft_isprint(int c)
 {
 	return (c >= 32 && c <= 126);
 }
+
+// parametreden gelen karakterin yazdırılabilir karakter olup olmadığını kontrol eder 1 veya 0 döndürür

@@ -16,3 +16,5 @@ int	ft_isdigit(int c)
 {
 	return (c <= '9' && c >= '0');
 }
+
+// parametreden gelen karakterin sayı olup olmadığını kontrol eder 1 veya 0 döndürür

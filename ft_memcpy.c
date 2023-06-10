@@ -26,3 +26,16 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
+// src nin n kadarını dst e kopyalar ve dst i döndürür
+
+// Aşağıdaki durumda overloop denilen durum oluşuyor bunun önüne geçmek için memmove kullanılıyor
+
+/*
+#include <stdio.h>
+int main()
+{
+	char src[] = "012345678";
+	printf("%s",ft_memcpy(src + 2,src,7));
+}
+*/

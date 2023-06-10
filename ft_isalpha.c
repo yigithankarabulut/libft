@@ -16,3 +16,5 @@ int	ft_isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c <= 'Z' && c >= 'A'));
 }
+
+// parametreden gelen karakterin alfabetik olup olmadığını kontrol eder 1 veya 0 döndürür

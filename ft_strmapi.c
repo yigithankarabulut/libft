@@ -30,3 +30,20 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (str);
 }
+
+// *s dizisinin her bi indeksine parametredeki fonksiyon uygulanır
+
+/*
+#include <stdio.h>
+char ft_iter(unsigned int i, char c)
+{
+	return(ft_tolower(c));
+}
+
+int main()
+{
+	char *str = "YigitHAN KAraBULut";
+	str = ft_strmapi(str,ft_iter);
+	printf("%s",str);
+}
+*/

@@ -22,3 +22,5 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, count * size);
 	return (ptr);
 }
+
+// gelen parametrelerin çarpımı kadar ptr ye mallocla yer açar ve içini '\0' la doldurur

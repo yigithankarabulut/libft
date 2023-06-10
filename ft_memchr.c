@@ -28,3 +28,15 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+/*
+ *s te n kadar c karakterini arar bulursa s'in kalanını döndürür
+
+#include <stdio.h>
+int main()
+{
+	const char *str = "Yigithan Karabulut";
+	int c = 97;
+	size_t n = 7;
+	printf("%s",(char *)ft_memchr(str,c,n));
+}
+*/

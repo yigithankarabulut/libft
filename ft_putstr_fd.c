@@ -18,3 +18,15 @@ void	ft_putstr_fd(char *s, int fd)
 		return ;
 	write(fd, s, ft_strlen(s));
 }
+
+// Parametre olarak girilen s dizisini fd nin gösterdiği yola yazar
+
+/*
+#include <fcntl.h>
+int main()
+{
+	char *str = "Yiğithan Karabulut";
+	int fd = open("fak.txt", O_CREAT | O_RDWR, 7777);
+	ft_putstr_fd(str,fd);
+}
+*/

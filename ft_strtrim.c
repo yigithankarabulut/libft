@@ -54,3 +54,16 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ptr[i] = '\0';
 	return (ptr);
 }
+
+// s1 dizisinin başında ve sonunda *set dizisinde verdiğimiz karakterleri bulursa kırpar
+// dizinin başında ve sonunda bir indeks bile *set dizisinin içindeki karakterler uyuşmuyorsa kırpmayı bırakır
+
+/*
+#include <stdio.h>
+int main()
+{
+	char s1[] = ".!.1.,.Lorem.Ipsum!.,..11";
+	char set[] = ".!1";
+	printf("%s",ft_strtrim(s1,set));
+}
+*/

@@ -25,3 +25,15 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
+
+// *s dizisinde c karakterini arar ve bulduğu yerden sonrasını döndürür
+// c karakterini önce s dizisinin sonuna gidip geriye doğru gelerek arar
+
+/*
+#include <stdio.h>
+int main()
+{
+	char *s = "----+----";
+	printf("%s",ft_strrchr(s,'+'));
+}
+*/

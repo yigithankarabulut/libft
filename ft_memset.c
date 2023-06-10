@@ -24,3 +24,14 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
+
+// b dizisine len kadar c karakterini kopyalar ve b dizisinin yeni halini döndürür
+
+/*
+#include <stdio.h>
+int main()
+{
+	char str[] = "42 Kocaeli";
+	printf("%s",ft_memset(str, 'a', 3));
+}
+*/
