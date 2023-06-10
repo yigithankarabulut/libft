@@ -40,3 +40,5 @@ int	ft_atoi(const char *str)
 	}
 	return (result * d);
 }
+
+//ascii to integer. --> birden fazla oparetör görürse 0 döndürür " -123ab" = -123 olarak int çevirir
