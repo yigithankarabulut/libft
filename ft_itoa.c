@@ -57,3 +57,11 @@ char	*ft_itoa(int n)
 }
 
 // int to ascii gelen int değerin boyutunu hesaplar. "-123" için bir char * 'a 5 byte lık yer açar sondan geriye doğru sayıyı kopyalar
+
+// #include <stdio.h>
+// int main()
+// {
+// 	int num = 123;
+// 	char *str = ft_itoa(num);
+// 	printf("%s\n", str);
+// }

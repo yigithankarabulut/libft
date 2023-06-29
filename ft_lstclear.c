@@ -26,3 +26,5 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 		*lst = temp;
 	}
 }
+
+// lst listesinin içindeki tüm düğümlerine del fonksiyonunu uygular ve düğümleri freeler

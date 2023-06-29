@@ -18,3 +18,11 @@ void	ft_bzero(void *s, size_t n)
 }
 
 // *s dizisine n kadar null atar
+// #include <stdio.h>
+// int main()
+// {
+// 	char str[] = "Hello World";
+// 	ft_bzero(str, 5);
+// 	printf("%c\n", str[6]);
+// 	return (0);
+// }

@@ -19,3 +19,6 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	del((void *)lst->content);
 	free(lst);
 }
+
+// gelen lst structının content'ini del fonksiyonuna gönderir
+// ve lst structını freeler

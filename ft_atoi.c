@@ -42,3 +42,15 @@ int	ft_atoi(const char *str)
 }
 
 //ascii to integer. --> birden fazla oparetör görürse 0 döndürür " -123ab" = -123 olarak int çevirir
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char	str[] = "  -123ab";
+// 	int		result;
+
+// 	result = ft_atoi(str);
+// 	printf("result is %d\n", result);
+// 	return (0);
+// }

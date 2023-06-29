@@ -22,3 +22,26 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+
+// #include <stdio.h>
+
+// void print_list(void *content)
+// {
+// 	printf("%s\n", content);
+// }
+
+// int main()
+// {
+// 	t_list *node1, *node2, *node3;
+// 	node1 = ft_lstnew("node1");
+// 	node2 = ft_lstnew("node2");
+// 	node3 = ft_lstnew("node3");
+
+// 	ft_lstadd_back(&node1, node2);
+// 	ft_lstadd_back(&node1, node3);
+
+// 	ft_lstiter(node1, print_list);
+// }
+
+
+// linked listin her bir contentini f fonksiyonuna gönderir
